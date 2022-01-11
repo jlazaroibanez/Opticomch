@@ -11,3 +11,10 @@ The fnyzer User Documentation is located in https://fnyzer.readthedocs.io/en/lat
 
 It is necessary to install a solver (CPLEX, glpk, Gurobi) in order to compute the numerical values for the 
 simulation.
+
+The repository contains two folders:
+
+1. Simul_VitrovsSilico. Includes the code necessary to reproduce the results obtained in the in vitro experiments.
+
+2.  maxProd_optX. Contains the simulation code for the optimization of theoretical productivity given different glucose concentrations, dilution rates and biomass values. It also includes a file (comProdDG_wo.py) that shows the event of wash out when the dilution rate is too high.
+
