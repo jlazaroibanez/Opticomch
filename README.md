@@ -8,13 +8,11 @@ to Optimize the Production of Commodity Chemicals".
 The genome-scale metabolic model used can be downloaded in https://www.ebi.ac.uk/biomodels/MODEL1108160000#Files
 
 The fnyzer User Documentation is located in https://fnyzer.readthedocs.io/en/latest/
+The fnyzer tool can be installed from the command line in a Linux systam with: $ pip install fnyzer
 
 It is necessary to install a solver (CPLEX, glpk, Gurobi) in order to compute the numerical values for the 
 simulation.
 
-The repository contains two folders:
+Installing glpk solver: $ apt-get install glpk-utils
 
-1. Simul_VitrovsSilico. Includes the code necessary to reproduce the results obtained in the in vitro experiments.
-
-2.  maxProd_optX. Contains the simulation code for the optimization of theoretical productivity given different glucose concentrations, dilution rates and biomass values. It also includes a file (comProdDG_wo.py) that shows the event of wash out when the dilution rate is too high.
-
+The repository the simulation code that creates the flexible net and allows the optimization of theoretical productivity given different a glucose concentration and dilution rate which iterates over different biomass values. 
