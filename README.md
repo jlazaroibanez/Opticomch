@@ -1,5 +1,5 @@
 # opticomch
-The provided .py file allow to reproduce the simulation results of the 
+The provided .py file can be used to reproduce the simulation results of the 
 paper: "Combination of Genome-Scale Models and Bioreactor Dynamics 
 to Optimize the Production of Commodity Chemicals".
 
