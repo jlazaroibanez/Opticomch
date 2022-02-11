@@ -32,7 +32,7 @@ medium, e.g. glc = 3.0 g L-1 (the lines below explore cell densities in the inte
         appropriate string name of the model file you downloaded. This line is for the file
         MODEL1108160000_url.xml
     
-        maxProd, optX = comProductivity(fnet, D = 0.41, glc = 3.0, X0 = 0.0, Xf = 1.2,
+        maxProd, optX, res_glucose = comProductivity(fnet, D = 0.41, glc = 3.0, X0 = 0.0, Xf = 1.2,
         XNsamps = 13, Xint = 0.1)
     
 The variables maxProd and optX contain the maximum productivity and associated cell density.
